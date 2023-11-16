@@ -1,0 +1,114 @@
+body{
+    background-image: url("https://preview.redd.it/3h2b5wo6fco41.jpg?auto=webp&s=ce89987c8d22016bdb3f3ecbdcb8bfff7fb9252e");
+    background-size: contain;
+    
+}
+
+h1,h4{
+    
+    line-height: 50px;
+    font-size: 140%;
+    font-family: 'Nosifer', sans-serif;
+    font-size: x-large;
+    text-align:center;
+    border:5px solid rgba(246,246,246,.5);
+    span
+    
+}
+
+p{
+    color: cyan;
+    font-size:x-large;
+    font-family: "Brush Script MT", cursive;
+}
+
+.listofthings{
+    font-size: x-large;
+    font-weight: 500;
+    list-style: none;
+    
+    color: white;
+    text-align: justify;
+    font-family: "Papyrus", fantasy;
+
+    
+}
+
+li1{
+    color: rgb(230, 200, 224);
+    border-color: rgba(0, 0, 0, 0.511);
+    border-style: bottom;
+    border-bottom-width: 4px;
+    border-bottom: 4px double white;
+    font-weight:500;
+    font-size:200%;
+    font-style: bold;
+    font-family: 'Shadows Into Light', cursive;
+}
+.highlight{
+    display:inline-block;
+    padding: 25em 0;
+    background: #ffc107;
+    color: #ffffff;
+}
+
+footer>p{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.296);
+    background-size:auto
+    
+}
+
+button{
+    font-weight: bolder;
+    color: rgb(253, 190, 1);
+    background-color: black;
+    border-style: 'none';
+    cursor:grab;
+}
+
+img {
+    float: right;
+    border-radius: 900px;
+    padding: 40px;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper>.brand-logo{
+
+    left: auto;
+    display: flex;
+    transform: translate(0);
+    webkit-transform: translateX(0);
+   
+}
+
+
+
+.align-right{
+    margin-left: auto;
+}
+
+@media (min-width: 1024px) {
+    .sidenav {
+        display: block; /* Ensure the sidebar is visible on laptops */
+    }
+}
+
+.sidenav-trigger
+{
+
+    margin-right: auto !important;
+}
+
+.sidenav >li > a{
+    margin: 10px 20px;
+    border-radius: 40px;
+    border:1px solid black;
+    
+}
