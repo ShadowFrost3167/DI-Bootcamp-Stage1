@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     
     background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/ghost-of-tsushima/0/0b/TaleOfLordShimura_11.jpg?width=1280");
@@ -6,6 +6,8 @@ body{
     background-size: cover;
 
 }
+
+
 
 .nameGhost{
     font-size: 100px;
@@ -120,29 +122,13 @@ h1{
 
 
 
-.iframe-container1{
+#table{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
     
-    width: 100%;
-    padding-bottom: 11.23%; 
-    padding-left:30%;
-    padding-top: 11.23%;
-    display: flexbox;
-    position: relative;
-    overflow: hidden;
-    
-  }
-
- .iframe-container2{
-    
-    width: 100%;
-    padding-bottom: 11.23%; 
-    padding-left:30%;
-    padding-top: 11.23%;
-    display: flexbox;
-    position: relative;
-    overflow: hidden;
-    
-  }
+}
 
 
 
@@ -150,145 +136,17 @@ h1{
 
 .flegend{
     color:whitesmoke;
-    padding-bottom: 15%;
-    padding-top: 10%;
-}
-  
-=======
-body{
-    
-    background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/ghost-of-tsushima/0/0b/TaleOfLordShimura_11.jpg?width=1280");
-        
-    background-size: cover;
-
+    background-color: rgb(128, 128, 128);
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
-.nameGhost{
-    font-size: 100px;
+h5{
+    color: whitesmoke;
+    padding-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.699);
+    margin-bottom:10%;
+    padding-top:5%;
     
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Shadows Into Light', cursive;
-    padding-right: 10 px;
     
 }
-
-h1{
-    color: rgba(237, 175, 120, 0.867);
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 39px;
-}
-
-.shusakuPicture{
-    align-content: left;
-    padding-left:39px;
-    
-}
-
-.links{
-    color: rgba(246, 247, 246, 0.841);
-    padding-top: 200px;
-    padding-bottom: 50px;
-    
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
-    background-color: rgba(19, 22, 22, 0.615);
-    color: rgb(255, 255, 255);
-    font-family: 'Changa', sans-serif;
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: x-large;
-}
-
-.legend{
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: bold;
-    
-    font-size: 80px;
-    
-}
-
-.life{
-    padding-left:150px;
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 80px;
-    background-color: rgba(115, 239, 121, 0.497);
-    
-    margin:left auto;
-    width:1000px;
-}
-
-
-.horizontal-list{
-    list-style: none;
-    padding:0;
-    display: inline;
-    margin-right:10px;
-    
-}
-
-.container{
-    padding-top: auto;
-    padding-right: 20px;
-    padding-bottom: 180px;
-    padding-left: 20px;
-}
-
-.brand-logo{
-    margin-left: auto;
-    padding-left: 50px;
-    display:block;
-    transform: translatex(0);
-    -webkit-transform: translatex(0);
-}
-
-.material-icons {
-    color: #fff;
-    font-size: 24px; /* Adjust the size as needed */
-    margin-right: 20px; /* Adjust the margin to control spacing */
-    align-self: flex;
-}
-
-.row{
-    display:inline-block;
-    padding-inline-start: 10px;
-    padding-inline-end: 10px;
-    padding-top: 50px;
-    min-height: auto;
-    min-width:40%;
-
-}
-
-
-
-.waves-effect{
-    
-    margin-left: 5%;
-}
-
-
-
-.iframe-container{
-    
-    width: 100%;
-    padding-bottom: 25%; 
-    padding-left:30%;
-    height: 0;
-    display: flexbox;
-  }
-
-.flegend{
-    color:whitesmoke;
-    padding-bottom: 15%;
-}
-  
->>>>>>> 2aa9d5e2b9078c8435ba316e2aa4f2823010e118
-  
