@@ -11,24 +11,31 @@
 // an item price
 // and an array representing the amount of change in your pocket.
 
-let amountOfChange = {
-    quarters: .25,
-    dimes: .1,
-    nickels: .05,
-    pennies: .01
-};
+let quarters = .25;
+let dimes = .1;
+let nickels = .05;
+let pennies =.01
+
+let currency = [quarters, dimes, nickels, pennies];
 
 function changeEnough(itemPrice, amountOfChange){
-    const totalChange = amountOfChange.quarters + amountOfChange.dimes+amountOfChange.nickels+amountOfChange.pennies;
 
-    if (totalChange >= itemPrice){
-        return true;
-    } else{
+    let sum = (amountOfChange[0]*currency[0]+amountOfChange[1]*currency[1]+amountOfChange[2]*currency[2]+amountOfChange[3]*currency[3]);
+
+   
+    
+
+    if (sum>=itemPrice){
+        return true;}
+
+    else{
         return false;
     }
-}
+    }
 
-console.log(changeEnough(4.25, [25, 20, 5, 0]));
+    console.log(changeEnough(4.25, [25, 20, 5, 0]));
+    console.log(changeEnough(14.11, [2,100,0,0])); 
+
 
 // In the function, determine whether or not you can afford the item.
 // If the sum of the change is bigger or equal than the item’s price (ie. it means that you can afford the item), the function should return true
