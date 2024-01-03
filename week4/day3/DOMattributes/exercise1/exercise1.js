@@ -27,5 +27,9 @@ ref.hasAttribute("hreflang");
 ref.getAttribute("hreflang");
 
 // rel
+
+ref.getAttribute("rel");
 // target
+
 // type
+ref.nodeType("text/html");
