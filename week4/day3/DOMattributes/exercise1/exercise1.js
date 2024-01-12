@@ -33,3 +33,6 @@ ref.getAttribute("rel");
 
 // type
 ref.nodeType("text/html");
+
+
+
