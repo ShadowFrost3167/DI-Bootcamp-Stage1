@@ -439,4 +439,27 @@
 // sum(...array);
 
 
+const flip =()=>{
+    const coin = Math.floor(Math.random()*3);
+    return coin <2 ? (coin===0 ? "head" : "tail") : "side";
+};
 
+const flipCoin = new Promise((res, rej)=>
+{
+    setTimeout(()=>{
+        const flipResult=flip();
+        if(flipResult==="head"|| flipResult==="tail"){
+            res(flipResult);
+        }else{
+            rej(flipResult);
+        }},2000);
+});
+
+flipCoin.then(result=>{
+    console.log(result);
+});
+
+
+// Subject: Finding solutions to honor and support victims of conflict and their families, addressing their daily challenges.
+// You need to use the topics of Advanced Javascript,Database,Async Javascript, Node.js.
+// top down rpg, theme being that during the daytime cycle the war didn't happen and the main character leads a normal life in Tel Aviv, at nighttime during the game the character has to fight or go to shelters basically live like people during the beginning of the war but in a videogame. 
