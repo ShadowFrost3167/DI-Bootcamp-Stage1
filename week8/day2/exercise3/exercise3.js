@@ -1,9 +1,0 @@
-// Instructions
-// Create a self invoking function that takes 4 arguments: number of children, partner’s name, geographic location, job title.
-(function(amountChildren, partnerName, location, jobTitle){
-    const fortune = `You will be a ${jobTitle} in ${location}, and married to ${partnerName} with ${amountChildren} kids.`;
-    document.write(fortune);
-
-})(5, "Judah", "Jerusalem", "Full Stack Developer");
-
-// The function should display in the DOM a sentence like "You will be a <job title> in <geographic location>, and married to <partner's name> with <number of children> kids."
